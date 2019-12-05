@@ -5,8 +5,8 @@ missing the patch from https://github.com/coreos/flannel/pull/1096
 
 ## Usage
 ```
-curl.exe -LO https://github.com/benmoss/fix-hostroute-policy/releases/download/v0.1.0/fix-hostroutepolicy.exe
-./fix-hostroutepolicy.exe vxlan0
+curl.exe -LO https://github.com/benmoss/fix-houstroute-policy/releases/latest/download/fix-hostroute-policy.exe
+./fix-hostroute-policy.exe vxlan0
 ```
 
 The argument is just your HNS Network name, which if you're using the https://github.com/kubernetes-sigs/sig-windows-tools/tree/master/kubeadm/ script will be `vxlan0`.
